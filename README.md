@@ -1,5 +1,13 @@
 # Rakudo and NQP Internals Workshop
 
+## What's in here?
+
+This repository contains course material for a workshop on Rakudo and NQP
+internals. In here you'll find:
+
+* The original source (build instructions below)
+* Pre-built PDFs, for your convenience, in the `output` directory
+
 ## Abstract
 
 This intensive 2-day workshop takes a deep dive into many areas of the Rakudo
@@ -135,3 +143,21 @@ however, best experienced live! If you're interested in having this material
 delivered by an experienced instructor at a location of your choice, feel free
 to contact us at info@edument.se. To learn more about Edument and our other
 awesome courses, see http://edument.se/.
+
+## Build Instructions
+
+Run the `Makefile` to build the slides for the two days. To do this, you will
+need:
+
+* A `make` program (`nmake` on Windows works just fine too)
+* Perl 5.10 or above
+* Pandoc (see http://johnmacfarlane.net/pandoc/)
+* The `latex`, `dvips` and `ps2pdf` commands in your path
+
+On Linux you can do something like:
+
+    apt-get install texlive
+    apt-get install pandoc
+
+On Windows, there is a Pandoc installer from the URL mentioned above, then
+install MiKTeX for the other commands.
