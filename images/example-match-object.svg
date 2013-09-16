@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="636.94495"
+   height="295.9418"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         id="path3792"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(37.757126,-365.13202)"
+     id="layer1">
+    <rect
+       width="67.132278"
+       height="50.62434"
+       rx="10"
+       ry="10"
+       x="60.529102"
+       y="365.63202"
+       id="rect4397"
+       style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       x="-39.999313"
+       y="398.42276"
+       id="text2985"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="-39.999313"
+         y="398.42276"
+         id="tspan2987"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Monospace;-inkscape-font-specification:Monospace Bold">$m :=</tspan></text>
+    <text
+       x="121.0582"
+       y="486.69022"
+       id="text2989"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="121.0582"
+         y="486.69022"
+         id="tspan2991" /></text>
+    <rect
+       width="421.50262"
+       height="50.624348"
+       rx="10"
+       ry="10"
+       x="161.77777"
+       y="456.97595"
+       id="rect4454"
+       style="fill:#c7efb2;fill-opacity:1;stroke:none" />
+    <text
+       x="146.54712"
+       y="499.57605"
+       id="text2993"
+       xml:space="preserve"
+       style="font-size:53.84694672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="146.54712"
+         y="499.57605"
+         id="tspan2995"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Monospace;-inkscape-font-specification:Monospace Bold">[      ,     ]</tspan></text>
+    <path
+       d="m 92.444444,426.16112 0,57.22752 47.322756,0"
+       id="path2997"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <g
+       transform="translate(167.28042,80.338625)"
+       id="g4404"
+       style="fill:#ffdb9d">
+      <rect
+         width="67.132278"
+         height="50.62434"
+         rx="10"
+         ry="10"
+         x="60.529102"
+         y="378.83838"
+         id="rect4406"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <rect
+       width="67.132278"
+       height="50.62434"
+       rx="10"
+       ry="10"
+       x="442.41272"
+       y="459.177"
+       id="rect4414"
+       style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       x="22.010582"
+       y="487.79077"
+       id="text4423"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="22.010582"
+         y="487.79077"
+         id="tspan4425"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">entry</tspan></text>
+    <path
+       d="m 255.32275,524.10821 0,57.22752 47.32275,0"
+       id="path4430"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <path
+       d="m 255.32275,578.03414 0,57.22752 47.32275,0"
+       id="path4432"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <g
+       transform="translate(250.92063,172.78307)"
+       id="g4434"
+       style="fill:#ffdb9d">
+      <rect
+         width="67.132278"
+         height="50.62434"
+         rx="10"
+         ry="10"
+         x="60.529102"
+         y="378.83838"
+         id="rect4436"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       transform="translate(250.92063,231.11111)"
+       id="g4438"
+       style="fill:#ffdb9d">
+      <rect
+         width="67.132278"
+         height="50.62434"
+         rx="10"
+         ry="10"
+         x="60.529102"
+         y="378.83838"
+         id="rect4440"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <path
+       d="m 475.42857,524.10821 0,57.22752 47.32275,0"
+       id="path4442"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <path
+       d="m 475.42857,578.03414 0,57.22752 47.32275,0"
+       id="path4444"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <g
+       transform="translate(471.02645,172.78307)"
+       id="g4446"
+       style="fill:#ffdb9d">
+      <rect
+         width="67.132278"
+         height="50.62434"
+         rx="10"
+         ry="10"
+         x="60.529102"
+         y="378.83838"
+         id="rect4448"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <g
+       transform="translate(471.02645,231.11111)"
+       id="g4450"
+       style="fill:#ffdb9d">
+      <rect
+         width="67.132278"
+         height="50.62434"
+         rx="10"
+         ry="10"
+         x="60.529102"
+         y="378.83838"
+         id="rect4452"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    </g>
+    <text
+       x="199.19576"
+       y="583.5368"
+       id="text4456"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="199.19576"
+         y="583.5368"
+         id="tspan4458"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">key</tspan></text>
+    <text
+       x="176.39545"
+       y="637.46271"
+       id="text4460"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="176.39545"
+         y="637.46271"
+         id="tspan4462"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">value</tspan></text>
+    <text
+       x="421.50266"
+       y="583.5368"
+       id="text4464"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="421.50266"
+         y="583.5368"
+         id="tspan4466"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">key</tspan></text>
+    <text
+       x="398.70233"
+       y="637.46271"
+       id="text4468"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="398.70233"
+         y="637.46271"
+         id="tspan4470"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">value</tspan></text>
+    <text
+       x="345.37476"
+       y="632.10345"
+       id="text4472"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="345.37476"
+         y="632.10345"
+         id="tspan4474"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">Animal</tspan><tspan
+         x="345.37476"
+         y="652.10345"
+         id="tspan4476"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">Facts</tspan></text>
+    <text
+       x="344.66821"
+       y="581.30078"
+       id="text4478"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="344.66821"
+         y="581.30078"
+         id="tspan4482"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">name</tspan></text>
+    <text
+       x="565.19202"
+       y="640.10931"
+       id="text4500"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="565.19202"
+         y="640.10931"
+         id="tspan4504"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">jnthn</tspan></text>
+    <text
+       x="565.07092"
+       y="582.89844"
+       id="text4506"
+       xml:space="preserve"
+       style="font-size:28px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Mono L;-inkscape-font-specification:Nimbus Mono L"><tspan
+         x="565.07092"
+         y="582.89844"
+         id="tspan4508"
+         style="font-size:16px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Monospace;-inkscape-font-specification:Monospace Bold">author</tspan></text>
+  </g>
+</svg>

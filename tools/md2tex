@@ -1,0 +1,275 @@
+#! /usr/bin/perl
+use 5.010;
+use strict;
+use warnings;
+use autodie;
+use File::Temp qw/ tempfile tempdir /;
+
+my $HEADER = <<'EOT';
+\documentclass[xcolor=dvipsnames]{beamer}
+\usecolortheme[named=Green]{structure}
+\usetheme[height=7mm]{Rochester}
+\usepackage{graphicx}
+\usepackage{color}
+
+\setbeameroption{hide notes}
+\usenavigationsymbolstemplate{}
+
+\definecolor{white}{rgb}{1,1,1}
+\definecolor{emph}{rgb}{0,0.5,0}
+
+\newcommand\q[1]{\textcolor{emph}{\textbf{#1}}}
+
+\definecolor{comment}{rgb}{0,0.5,0}
+\definecolor{string}{rgb}{0.5,0,0}
+\definecolor{keyword_or_type}{rgb}{0,0,0.7}
+\definecolor{classname}{rgb}{0,0.8,0.5}
+
+\newcommand\Hc[1]{\textcolor{comment}{#1}}
+\newcommand\Hs[1]{\textcolor{string}{#1}}
+\newcommand\Hkt[1]{\textcolor{keyword_or_type}{#1}}
+\newcommand\Hcn[1]{\textcolor{classname}{#1}}
+
+\title{[:title:]}
+\subtitle{[:subtitle:]}
+\author{[:author:]}
+\institute[Edument]{
+  \textcopyright{} Edument AB
+}
+\titlegraphic{
+  \includegraphics[scale=0.1]{eps/edument-logo.eps}
+}
+\begin{document}
+
+%----------- titlepage ----------------------------------------------%
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\addtolength{\parskip}{\baselineskip}
+EOT
+chomp $HEADER;
+
+my $FOOTER = '
+
+\\end{document}
+';
+
+die "Usage: $0 <infile> <outfile>"
+    unless @ARGV == 2;
+
+my $md_file = $ARGV[0];
+my $tex_file = $ARGV[1];
+my %attrs;
+my $content;
+{
+    open my $IN, '<', $md_file;
+    while (my $line = <$IN>) {
+        chomp $line;
+        last unless $line;
+        die "Unknown attribute format: '$line'"
+            unless my ($key, $value) = $line =~ /^ (\w+) : \s+ (.+) $/x;
+
+        $attrs{$key} = latex_escape($value);
+    }
+    $content = join '', <$IN>;
+    close $IN;
+}
+
+sub latex_escape {
+    my ($string) = @_;
+
+    $string =~ s/ä/\\"\{a\}/g;
+    $string =~ s/—/---/g;
+    return $string;
+}
+
+sub substitute_all {
+    my ($string, $substitutions_ref) = @_;
+
+    my %substitutions = %$substitutions_ref;
+    for my $from (keys %substitutions) {
+        my $to = $substitutions{$from};
+        $string =~ s/\[:\Q$from\E:\]/$to/;
+    }
+    return $string;
+}
+
+sub remove_first_paragraph {
+    my ($string) = @_;
+    my @lines = split(/\n/, $string);
+    shift(@lines) while $lines[0];
+    shift(@lines);
+    return join("\n", @lines);
+}
+
+sub needs_fragile {
+    my $text = shift;
+    $text =~ /\\begin\{(?:verbatim|itemize)/ || $text =~ /\\verb/;
+}
+
+sub sections_to_frames {
+    my ($string) = @_;
+
+    $string =~ s/\\section\{([^}]+)\}(.+?)(?=\\section|\\subsection|\z)/
+\\section{$1}
+
+%----------- section slide ------------------------------------------%
+\\begin{frame}
+  \\frametitle{$1}
+
+\\centering
+\\begin{Huge}$1\\end{Huge}$2\\end{frame}/gms;
+
+    return $string;
+}
+
+sub subsections_to_frames {
+    my ($string) = @_;
+
+    $string =~ s/\\subsection\{([^}]+)\}(.+?)(?=\\section|\\subsection|\z)/
+        my ($title, $content) = ($1, $2);
+        my $fragile = needs_fragile($content) ? "[fragile]" : "";
+        $content .= "\n\n" unless substr($content, -1) eq "\n";
+"
+
+%----------- slide --------------------------------------------------%
+\\begin{frame}$fragile
+  \\frametitle{$title}
+
+\\centering$content\\end{frame}
+
+"/egms;
+
+    return $string;
+}
+
+sub scale_graphics {
+    my ($string) = @_;
+
+    $string =~ s!\\includegraphics\{(.+?)\}\s*\\caption\{(\d+)\\%\}!
+        "\\includegraphics[scale="
+            . sprintf("%3.1f", $2/100)
+            . "]{$1}"!egsm;
+    return $string;
+}
+
+sub edument_specific_substitutions {
+    my ($string) = @_;
+
+    # XXX: Most likely wrong (because nested {}) but not sure it matters
+    #      since the net amount and positions of the } remain the same.
+    $string =~ s/\\textbf\{([^}]+)\}/\\q{$1}/g;
+    return $string;
+}
+
+sub markdown_to_latex {
+    my $markdown = shift;
+    my ($TEMP, $tempfile) = tempfile();
+    print $TEMP $markdown;
+    close $TEMP;
+    my $latex = `pandoc -f markdown -t latex $tempfile`
+        or exit 1;
+    return $latex;
+}
+
+sub ch {
+    my $text = shift;
+    chomp $text;
+    return $text;
+}
+
+sub columnize {
+    my ($row, $columns_ref) = @_;
+    my @cells;
+    for my $i (0 .. @$columns_ref-2) {
+        my $from = $columns_ref->[$i];
+        my $to   = $columns_ref->[$i+1];
+        push @cells, ch(markdown_to_latex(substr($row, $from, $to-$from)));
+    }
+    push @cells, ch(markdown_to_latex(substr($row, $columns_ref->[@$columns_ref-1])));
+    return (join ' & ', @cells) . " \\\\";
+}
+
+sub deduce_columns {
+    my $table_spec = shift;
+    my @columns;
+    while ($table_spec =~ m/([=:]+)/g) {
+        my $start_of_match = pos($table_spec) - length($1);
+        push @columns, $start_of_match;
+    }
+    return @columns;
+}
+
+sub maybe_substitute_table {
+    my $maybe_table = shift;
+    my @rows = split "\n", $maybe_table;
+    return "\\begin{verbatim}
+$maybe_table
+\\end{verbatim}"
+        unless @rows > 1 && $rows[1] =~ /^ [ =:]+ $/x;
+    my $layout = "|l|l|";
+    my $header = $rows[0];
+    my @columns = deduce_columns($rows[1]);
+    my @body = @rows[2..@rows-1];
+    my @table = (
+        "\\begin{tabular}{$layout}",
+        "    \\hline",
+        columnize($header, \@columns),
+        "    \\hline",
+        "    \\hline",
+        (map { columnize($_, \@columns) } @body),
+        "    \\hline",
+        "\\end{tabular}"
+    );
+    return join "\n", @table;
+}
+
+sub intuit_tables {
+    my $text = shift;
+    $text =~ s[\\begin{verbatim}\n(.*?)^\\end{verbatim}]
+              [maybe_substitute_table($1)]egxms;
+    return $text;
+}
+
+sub wrap_verbatims_in_blocks {
+    my $text = shift;
+    $text =~ s[(\\begin{verbatim}\n.*?^)\n(\\end{verbatim})]
+              [\\begin{block}{\\vspace{-2ex}}\n\\vspace{-4ex}\\scriptsize$1$2\n\\end{block}]gxms;
+    return $text;
+}
+
+my @keywords = qw<
+    break catch else false for if import interface new null
+    private protected public return static this throw true try void
+>;
+my @types = qw<boolean int long>;
+my @keywords_types = (@keywords, @types);
+
+sub eq_any { my $v = shift; grep { $v eq $_ } @_ }
+sub scrub { my $s = shift; $s =~ s/\\H\w+\{([^}]*)\}/$1/g; $s }
+
+sub semiverbatim_escape {
+    my $text = shift;
+    for ($text) {
+        s/\{/\\\{/g;
+        s/\}/\\\}/g;
+    }
+    return $text;
+}
+
+my $tex = markdown_to_latex($content);
+$tex = sections_to_frames($tex);
+$tex = subsections_to_frames($tex);
+$tex = scale_graphics($tex);
+$tex = latex_escape($tex);
+$tex = intuit_tables($tex);
+$tex = wrap_verbatims_in_blocks($tex);
+$tex = edument_specific_substitutions($tex);
+
+$HEADER = substitute_all($HEADER, \%attrs);
+{
+    open my $OUT, '>', $tex_file;
+    print $OUT $HEADER, $tex, $FOOTER;
+    close $OUT;
+}

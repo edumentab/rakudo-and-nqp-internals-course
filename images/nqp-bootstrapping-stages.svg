@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="868.01599"
+   height="209.77629"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         id="path3859"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path3865"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-24.706036,-404.95213)"
+     id="layer1">
+    <g
+       id="g3759">
+      <rect
+         width="174.98412"
+         height="78.137581"
+         rx="10"
+         ry="10"
+         x="26.206036"
+         y="474.49255"
+         id="rect2989"
+         style="fill:#99dd77;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="40.719578"
+         y="524.10822"
+         id="text2985"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="40.719578"
+           y="524.10822"
+           id="tspan2987">stage0</tspan></text>
+    </g>
+    <g
+       transform="translate(46.772522,0)"
+       id="g3823">
+      <rect
+         width="174.98412"
+         height="78.137581"
+         rx="10"
+         ry="10"
+         x="324.44943"
+         y="474.49255"
+         id="rect3766"
+         style="fill:#aaee99;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="338.96298"
+         y="524.10822"
+         id="text3768"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="338.96298"
+           y="524.10822"
+           id="tspan3770">stage1</tspan></text>
+    </g>
+    <g
+       transform="translate(93.545035,0)"
+       id="g3818">
+      <rect
+         width="174.98412"
+         height="78.137581"
+         rx="10"
+         ry="10"
+         x="622.69287"
+         y="474.49255"
+         id="rect3774"
+         style="fill:#ccffbb;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="637.20642"
+         y="524.10822"
+         id="text3776"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="637.20642"
+           y="524.10822"
+           id="tspan3778">stage2</tspan></text>
+    </g>
+    <g
+       id="g4286">
+      <path
+         d="m 309.47168,480.90661 c -4.62171,0 -8.84197,1.66646 -12.11115,4.43813 -1.86832,-0.62401 -3.85906,-0.96653 -5.93723,-0.96653 -4.47642,0 -8.59082,1.56469 -11.81527,4.1817 -3.43844,-4.2493 -8.7045,-6.96292 -14.5965,-6.96292 -10.35846,0 -18.73874,8.4 -18.73874,18.75847 0,0.88312 0.0595,1.75307 0.17752,2.6037 -5.51635,3.26543 -9.21157,9.27982 -9.21157,16.15477 0,10.35846 8.40001,18.75847 18.75847,18.75847 1.29481,0 2.54653,-0.12493 3.76747,-0.37477 3.4403,4.04868 8.55168,6.6276 14.2809,6.6276 3.55093,0 6.874,-0.988 9.7047,-2.70233 3.32094,2.98205 7.71069,4.79318 12.52537,4.79318 5.68494,0 10.78218,-2.53435 14.22173,-6.52898 1.86534,0.6218 3.86289,0.96653 5.93722,0.96653 10.35846,0 18.73875,-8.40001 18.73875,-18.75848 0,-6.43826 -3.24324,-12.10657 -8.18588,-15.48412 0.8073,-2.09346 1.24268,-4.36786 1.24268,-6.74595 0,-10.35846 -8.40001,-18.75847 -18.75847,-18.75847 z"
+         id="path3786"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1.89359963;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="286.26468"
+         y="508.96133"
+         id="text3801"
+         xml:space="preserve"
+         style="font-size:25.24799538px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+           x="286.26468"
+           y="508.96133"
+           id="tspan3803"
+           style="font-size:16px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Nimbus Sans L Bold">build</tspan><tspan
+           x="286.26468"
+           y="528.9613"
+           id="tspan4280"
+           style="font-size:16px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Nimbus Sans L Bold">NQP</tspan></text>
+    </g>
+    <path
+       d="m 110.05291,472.38335 0,-64.93122 178.28571,0 0,73.73545"
+       id="path3828"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:20, 5;stroke-dashoffset:0" />
+    <path
+       d="m 450.1164,472.38335 0,-64.93122 178.28571,0 0,73.73545"
+       id="path3830"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:20, 5;stroke-dashoffset:0" />
+    <path
+       d="m 290.53968,547.21932 0,64.93122 161.77777,0 0,-59.42857"
+       id="path3832"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:20, 5;stroke-dashoffset:0;marker-end:url(#Arrow2Mend)" />
+    <path
+       d="m 629.50264,547.21932 0,64.93122 161.77777,0 0,-59.42857"
+       id="path4278"
+       style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:20, 5;stroke-dashoffset:0;marker-end:url(#Arrow2Mend)" />
+    <g
+       transform="translate(337.86243,0)"
+       id="g4292">
+      <path
+         d="m 309.47168,480.90661 c -4.62171,0 -8.84197,1.66646 -12.11115,4.43813 -1.86832,-0.62401 -3.85906,-0.96653 -5.93723,-0.96653 -4.47642,0 -8.59082,1.56469 -11.81527,4.1817 -3.43844,-4.2493 -8.7045,-6.96292 -14.5965,-6.96292 -10.35846,0 -18.73874,8.4 -18.73874,18.75847 0,0.88312 0.0595,1.75307 0.17752,2.6037 -5.51635,3.26543 -9.21157,9.27982 -9.21157,16.15477 0,10.35846 8.40001,18.75847 18.75847,18.75847 1.29481,0 2.54653,-0.12493 3.76747,-0.37477 3.4403,4.04868 8.55168,6.6276 14.2809,6.6276 3.55093,0 6.874,-0.988 9.7047,-2.70233 3.32094,2.98205 7.71069,4.79318 12.52537,4.79318 5.68494,0 10.78218,-2.53435 14.22173,-6.52898 1.86534,0.6218 3.86289,0.96653 5.93722,0.96653 10.35846,0 18.73875,-8.40001 18.73875,-18.75848 0,-6.43826 -3.24324,-12.10657 -8.18588,-15.48412 0.8073,-2.09346 1.24268,-4.36786 1.24268,-6.74595 0,-10.35846 -8.40001,-18.75847 -18.75847,-18.75847 z"
+         id="path4294"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1.89359963;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="286.26468"
+         y="508.96133"
+         id="text4296"
+         xml:space="preserve"
+         style="font-size:25.24799538px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+           x="286.26468"
+           y="508.96133"
+           id="tspan4298"
+           style="font-size:16px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Nimbus Sans L Bold">build</tspan><tspan
+           x="286.26468"
+           y="528.9613"
+           id="tspan4300"
+           style="font-size:16px;font-weight:bold;text-align:center;text-anchor:middle;-inkscape-font-specification:Nimbus Sans L Bold">NQP</tspan></text>
+    </g>
+    <text
+       x="146.30394"
+       y="591.24042"
+       id="text4302"
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+         x="146.30394"
+         y="591.24042"
+         id="tspan4304"
+         style="text-align:center;text-anchor:middle">stored in the repo</tspan><tspan
+         x="146.30394"
+         y="611.24042"
+         id="tspan4306"
+         style="text-align:center;text-anchor:middle">in compiled form</tspan></text>
+    <text
+       x="751.59491"
+       y="423.96002"
+       id="text4308"
+       xml:space="preserve"
+       style="font-size:16px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+         x="751.59491"
+         y="423.96002"
+         id="tspan4312"
+         style="text-align:center;text-anchor:middle">if we get here, we know</tspan><tspan
+         x="751.59491"
+         y="443.96002"
+         id="tspan4316"
+         style="text-align:center;text-anchor:middle">NQP can compile itself</tspan></text>
+    <path
+       d="m 841.90476,430.56324 c 25.39042,-0.29101 27.25272,-0.009 26.4127,40.71958"
+       id="path4318"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+    <path
+       d="m 76.791527,594.23058 c -25.39042,0.29101 -27.25272,0.009 -26.4127,-40.71958"
+       id="path4688"
+       style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow2Lend)" />
+  </g>
+</svg>

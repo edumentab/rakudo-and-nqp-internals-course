@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="1080.1293"
+   height="316.65079"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path3790"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend-1"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path3878"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker4578"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path4580"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker4582"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path4584"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker4586"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path4588"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker4590"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path4592"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker4594"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path4596"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <rect
+     width="150.77249"
+     height="313.65079"
+     rx="10"
+     ry="10"
+     x="182.71341"
+     y="1.5000043"
+     id="rect2985"
+     style="opacity:0.98999999;fill:#88aadd;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+  <rect
+     width="150.77249"
+     height="313.65079"
+     rx="10"
+     ry="10"
+     x="679.052"
+     y="1.5000043"
+     id="rect2987"
+     style="opacity:0.98999999;fill:#88dd99;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+  <path
+     d="m 346.69225,158.87565 318.05291,0"
+     id="path3757"
+     style="fill:none;stroke:#000000;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+  <text
+     x="-258.96225"
+     y="271.02365"
+     transform="matrix(0,-1,1,0,0,0)"
+     id="text4203"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"><tspan
+       x="-258.96225"
+       y="271.02365"
+       id="tspan4205">FRONTEND</tspan></text>
+  <text
+     x="-249.12192"
+     y="767.36224"
+     transform="matrix(0,-1,1,0,0,0)"
+     id="text4207"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold"><tspan
+       x="-249.12192"
+       y="767.36224"
+       id="tspan4209">BACKEND</tspan></text>
+  <text
+     x="16.390953"
+     y="61.746769"
+     id="text4211"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"><tspan
+       x="16.390953"
+       y="61.746769"
+       id="tspan4213">NQP</tspan></text>
+  <text
+     x="61.007896"
+     y="171.24942"
+     id="text4215"
+     xml:space="preserve"
+     style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#777777;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Italic"><tspan
+       x="61.007896"
+       y="171.24942"
+       id="tspan4217">or</tspan></text>
+  <text
+     x="-3.2760017"
+     y="274.1489"
+     id="text4219"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"><tspan
+       x="-3.2760017"
+       y="274.1489"
+       id="tspan4221">Perl 6</tspan></text>
+  <text
+     x="2.5175545"
+     y="309.20917"
+     transform="matrix(0.93959603,-0.34228541,0.34228541,0.93959603,0,0)"
+     id="text3952"
+     xml:space="preserve"
+     style="font-size:112.63088989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#006600;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+       x="2.5175545"
+       y="309.20917"
+       id="tspan3954">⇝</tspan></text>
+  <text
+     x="107.42294"
+     y="21.236948"
+     transform="matrix(0.93959603,0.34228541,0.34228541,-0.93959603,0,0)"
+     id="text4412"
+     xml:space="preserve"
+     style="font-size:112.63088989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#006600;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+       x="107.42294"
+       y="21.236948"
+       id="tspan4414">⇝</tspan></text>
+  <text
+     x="754.95416"
+     y="381.85431"
+     transform="matrix(0.93959603,-0.34228541,0.34228541,0.93959603,0,0)"
+     id="text4428"
+     xml:space="preserve"
+     style="font-size:112.63088989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#006600;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+       x="754.95416"
+       y="381.85431"
+       id="tspan4430">⇝</tspan></text>
+  <text
+     x="865.41394"
+     y="81.850136"
+     transform="matrix(0.93959603,0.34228541,0.34228541,-0.93959603,0,0)"
+     id="text4432"
+     xml:space="preserve"
+     style="font-size:112.63088989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#006600;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+       x="865.41394"
+       y="81.850136"
+       id="tspan4434">⇝</tspan></text>
+  <text
+     x="913.32214"
+     y="43.371983"
+     id="text4416"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"><tspan
+       x="913.32214"
+       y="43.371983"
+       id="tspan4418">Parrot</tspan></text>
+  <text
+     x="913.17816"
+     y="85.925789"
+     id="text4420"
+     xml:space="preserve"
+     style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#777777;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Italic"><tspan
+       x="913.17816"
+       y="85.925789"
+       id="tspan4422">or</tspan></text>
+  <text
+     x="912.78217"
+     y="128.47958"
+     id="text4424"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"><tspan
+       x="912.78217"
+       y="128.47958"
+       id="tspan4426">JVM</tspan></text>
+  <text
+     x="913.17816"
+     y="171.03342"
+     id="text4436"
+     xml:space="preserve"
+     style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#777777;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Italic"><tspan
+       x="913.17816"
+       y="171.03342"
+       id="tspan4438">or</tspan></text>
+  <text
+     x="912.78217"
+     y="213.58719"
+     id="text4440"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"><tspan
+       x="912.78217"
+       y="213.58719"
+       id="tspan4442">JavaScript</tspan></text>
+  <text
+     x="913.17816"
+     y="256.14096"
+     id="text4444"
+     xml:space="preserve"
+     style="font-size:36px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#777777;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Italic"><tspan
+       x="913.17816"
+       y="256.14096"
+       id="tspan4446">or</tspan></text>
+  <text
+     x="912.78217"
+     y="298.69479"
+     id="text4448"
+     xml:space="preserve"
+     style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Sans"><tspan
+       x="912.78217"
+       y="298.69479"
+       id="tspan4450">MoarVM</tspan></text>
+  <text
+     x="839.04529"
+     y="154.23384"
+     transform="matrix(0.93959603,0.34228541,0.34228541,-0.93959603,0,0)"
+     id="text4468"
+     xml:space="preserve"
+     style="font-size:112.63088989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#006600;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+       x="839.04529"
+       y="154.23384"
+       id="tspan4470">⇝</tspan></text>
+  <text
+     x="729.71564"
+     y="451.13586"
+     transform="matrix(0.93959603,-0.34228541,0.34228541,0.93959603,0,0)"
+     id="text4472"
+     xml:space="preserve"
+     style="font-size:112.63088989px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#006600;fill-opacity:1;stroke:none;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L"><tspan
+       x="729.71564"
+       y="451.13586"
+       id="tspan4474">⇝</tspan></text>
+</svg>

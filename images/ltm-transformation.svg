@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="1280.1797"
+   height="763.80383"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Lend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         id="path3839"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path3845"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(113.35449,-298.66141)"
+     id="layer1">
+    <rect
+       width="191.49207"
+       height="47.32275"
+       rx="10"
+       ry="40"
+       x="137.56613"
+       y="335.91772"
+       id="rect3040"
+       style="opacity:0.98999999;fill:#cceebb;fill-opacity:1;stroke:none" />
+    <rect
+       width="111.15347"
+       height="47.322754"
+       rx="10"
+       ry="23.661377"
+       x="438.01059"
+       y="335.91772"
+       id="rect3810"
+       style="opacity:0.98999999;fill:#cceebb;fill-opacity:1;stroke:none" />
+    <text
+       x="59.42857"
+       y="326.01297"
+       id="text2985"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="59.42857"
+         y="326.01297"
+         id="tspan2987">token TOP {</tspan><tspan
+         x="59.42857"
+         y="371.01297"
+         id="tspan2989">    ^ [ &lt;insert&gt; | &lt;select&gt; ] $</tspan><tspan
+         x="59.42857"
+         y="416.01297"
+         id="tspan3003">}</tspan></text>
+    <rect
+       width="191.49207"
+       height="47.32275"
+       rx="10"
+       ry="40"
+       x="-30.771395"
+       y="535.47919"
+       id="rect4442"
+       style="opacity:0.98999999;fill:#cceebb;fill-opacity:1;stroke:none" />
+    <text
+       x="-113.35449"
+       y="482.28812"
+       id="text3020"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="-113.35449"
+         y="482.28812"
+         id="tspan3022"></tspan><tspan
+         x="-113.35449"
+         y="527.28809"
+         id="tspan3024">token insert {</tspan><tspan
+         x="-113.35449"
+         y="572.28809"
+         id="tspan3026">    'INSERT' :s &lt;pairlist&gt;</tspan><tspan
+         x="-113.35449"
+         y="617.28809"
+         id="tspan3028">}</tspan></text>
+    <rect
+       width="191.49207"
+       height="47.32275"
+       rx="10"
+       ry="40"
+       x="667.01483"
+       y="535.47919"
+       id="rect4444"
+       style="opacity:0.98999999;fill:#cceebb;fill-opacity:1;stroke:none" />
+    <text
+       x="585.48151"
+       y="527.40979"
+       id="text3030"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="585.48151"
+         y="527.40979"
+         id="tspan3032">token select {</tspan><tspan
+         x="585.48151"
+         y="572.40979"
+         id="tspan3034">    'SELECT' :s &lt;keylist&gt;</tspan><tspan
+         x="585.48151"
+         y="617.40979"
+         id="tspan3036">    [ 'WHERE' &lt;pairlist&gt; ]?</tspan><tspan
+         x="585.48151"
+         y="662.40979"
+         id="tspan3038">}</tspan></text>
+    <path
+       d="m 322.45503,385.44155 0,53.92592 -235.513231,0 0,49.52381"
+       id="path3812"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       d="m 553.36572,385.44155 0,53.92592 216.80424,0 0,49.52381"
+       id="path4440"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <g
+       transform="translate(81.546369,-21.6147)"
+       id="g4455">
+      <path
+         d="m 282.375,674.96875 0,156.25 -61.125,0.0625 114.09375,115.1875 115.40625,-115.375 -61.125,0.0625 0,-156.1875 -107.25,0 z"
+         id="rect4446"
+         style="opacity:0.98999999;fill:#003399;fill-opacity:1;stroke:none" />
+      <text
+         x="298.5842"
+         y="780.36218"
+         id="text4451"
+         xml:space="preserve"
+         style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="298.5842"
+           y="780.36218"
+           id="tspan4453"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ffffff;fill-opacity:1;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Bold">LTM</tspan></text>
+    </g>
+    <rect
+       width="275.00342"
+       height="47.322754"
+       rx="10"
+       ry="23.661377"
+       x="10.825389"
+       y="976.49884"
+       id="rect4460"
+       style="opacity:0.98999999;fill:#cceebb;fill-opacity:1;stroke:none" />
+    <rect
+       width="213.33206"
+       height="47.322754"
+       rx="10"
+       ry="21.20516"
+       x="463.55524"
+       y="976.49884"
+       id="rect4462"
+       style="opacity:0.98999999;fill:#cceebb;fill-opacity:1;stroke:none" />
+    <text
+       x="-68.294662"
+       y="966.59412"
+       id="text4464"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="-68.294662"
+         y="966.59412"
+         id="tspan4466" /><tspan
+         x="-68.294662"
+         y="1011.5941"
+         id="tspan4470">    ^ [ 'INSERT' :s <tspan
+   id="tspan4472"
+   style="fill:#808080;fill-opacity:1">...</tspan> | 'SELECT' :s <tspan
+   id="tspan4474"
+   style="fill:#808080;fill-opacity:1">...</tspan> ] $</tspan></text>
+    <text
+       x="48"
+       y="670.36218"
+       id="text4476"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="48"
+         y="670.36218"
+         id="tspan4478"
+         style="font-size:24px;font-style:italic;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L Italic">declarative prefix</tspan></text>
+    <path
+       d="m 42,662.36218 c -6.611209,-21.91103 -24.853501,-34.5172 -7,-76"
+       id="path4480"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:3, 3;stroke-dashoffset:0;marker-end:url(#Arrow2Lend)" />
+    <rect
+       width="322.97342"
+       height="105.39133"
+       rx="10"
+       ry="21.20516"
+       x="792.64691"
+       y="823.51105"
+       id="rect4680"
+       style="opacity:0.98999999;fill:#ffff99;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+    <text
+       x="1067.9741"
+       y="567.7533"
+       transform="translate(-113.35449,298.66141)"
+       id="text4674"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="1067.9741"
+         y="567.7533"
+         id="tspan4676"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">How the parser</tspan><tspan
+         x="1067.9741"
+         y="612.7533"
+         id="tspan4678"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">treats the choices</tspan></text>
+    <rect
+       width="322.97342"
+       height="105.39133"
+       rx="10"
+       ry="21.20516"
+       x="792.64691"
+       y="337.35104"
+       id="rect4682"
+       style="opacity:0.98999999;fill:#ffff99;fill-opacity:1;stroke:#000000;stroke-opacity:1" />
+    <text
+       x="954.61963"
+       y="380.2547"
+       id="text4684"
+       xml:space="preserve"
+       style="font-size:36px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="954.61963"
+         y="380.2547"
+         id="tspan4688"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">What the grammar</tspan><tspan
+         x="954.61963"
+         y="425.2547"
+         id="tspan4692"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;text-anchor:middle;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">looks like</tspan></text>
+  </g>
+</svg>

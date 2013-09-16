@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.1"
+   width="868.17413"
+   height="524.16705"
+   id="svg2">
+  <defs
+     id="defs4">
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Mend"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)"
+         id="path3878"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+    <marker
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="Arrow2Send"
+       style="overflow:visible">
+      <path
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         id="path3884"
+         style="fill-rule:evenodd;stroke-width:0.625;stroke-linejoin:round" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(93.394173,-458.77753)"
+     id="layer1">
+    <text
+       x="-48.649605"
+       y="974.22461"
+       id="text2985"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="-48.649605"
+         y="974.22461"
+         id="tspan2987"><tspan
+   id="tspan4505"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Nimbus Sans L;-inkscape-font-specification:Nimbus Sans L">the QAST for the expression </tspan>(3 + 4) * 6</tspan></text>
+    <g
+       id="g4533">
+      <rect
+         width="80.338608"
+         height="36.317474"
+         x="458.42807"
+         y="468.69235"
+         id="rect3066"
+         style="fill:#a7d68f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <g
+         id="g4529">
+        <text
+           x="474.32803"
+           y="492.19287"
+           id="text3062"
+           xml:space="preserve"
+           style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+             x="474.32803"
+             y="492.19287"
+             id="tspan3064"
+             style="font-size:20px">op&lt;*&gt;</tspan></text>
+      </g>
+    </g>
+    <rect
+       width="169.48148"
+       height="97.94709"
+       rx="10"
+       ry="40"
+       x="301.54498"
+       y="460.27753"
+       id="rect2989"
+       style="fill:#a7d68f;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       x="318.8902"
+       y="520.03119"
+       id="text2991"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="318.8902"
+         y="520.03119"
+         id="tspan2993"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Monospace Bold">QAST::Op</tspan></text>
+    <g
+       transform="translate(0,2.2010498)"
+       id="g4524">
+      <rect
+         width="115.55557"
+         height="36.317444"
+         x="658.72437"
+         y="642.57599"
+         id="rect4499"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="674.62433"
+         y="666.07648"
+         id="text4501"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="674.62433"
+           y="666.07648"
+           id="tspan4503"
+           style="font-size:20px">value(6)</tspan></text>
+    </g>
+    <rect
+       width="198.09523"
+       height="97.947083"
+       rx="10"
+       ry="40"
+       x="472.12698"
+       y="636.91248"
+       id="rect2995"
+       style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       x="487.27029"
+       y="696.66608"
+       id="text2997"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="487.27029"
+         y="696.66608"
+         id="tspan2999"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Monospace Bold">QAST::IVal</tspan></text>
+    <g
+       id="g4519">
+      <rect
+         width="79.238106"
+         height="36.317444"
+         x="272.43866"
+         y="644.77704"
+         id="rect3839"
+         style="fill:#a7d68f;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="288.33862"
+         y="668.27753"
+         id="text3841"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="288.33862"
+           y="668.27753"
+           id="tspan3843"
+           style="font-size:20px">op&lt;+&gt;</tspan></text>
+    </g>
+    <g
+       transform="translate(15.407412,137.01589)"
+       id="g3011">
+      <rect
+         width="169.48148"
+         height="97.94709"
+         rx="10"
+         ry="40"
+         x="100.14815"
+         y="499.89658"
+         id="rect3013"
+         style="fill:#a7d68f;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="117.49338"
+         y="559.65021"
+         id="text3015"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="117.49338"
+           y="559.65021"
+           id="tspan3017"
+           style="font-size:28px;font-weight:bold;-inkscape-font-specification:Monospace Bold">QAST::Op</tspan></text>
+    </g>
+    <g
+       id="g4509">
+      <rect
+         width="115.55557"
+         height="36.317444"
+         x="93.052414"
+         y="819.76117"
+         id="rect4483"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="108.95238"
+         y="843.26166"
+         id="text4485"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="108.95238"
+           y="843.26166"
+           id="tspan4487"
+           style="font-size:20px">value(3)</tspan></text>
+    </g>
+    <rect
+       width="198.09523"
+       height="97.947083"
+       rx="10"
+       ry="40"
+       x="-91.894173"
+       y="813.54736"
+       id="rect3021"
+       style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       x="-76.750862"
+       y="873.30096"
+       id="text3023"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="-76.750862"
+         y="873.30096"
+         id="tspan3025"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Monospace Bold">QAST::IVal</tspan></text>
+    <g
+       id="g4514">
+      <rect
+         width="115.55557"
+         height="36.317444"
+         x="470.53391"
+         y="819.76117"
+         id="rect4489"
+         style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+      <text
+         x="486.43387"
+         y="843.26166"
+         id="text4491"
+         xml:space="preserve"
+         style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+           x="486.43387"
+           y="843.26166"
+           id="tspan4493"
+           style="font-size:20px">value(4)</tspan></text>
+    </g>
+    <rect
+       width="198.09523"
+       height="97.947083"
+       rx="10"
+       ry="40"
+       x="285.58731"
+       y="813.54736"
+       id="rect3029"
+       style="fill:#ffdb9d;fill-opacity:1;stroke:#000000;stroke-width:3;stroke-linecap:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0" />
+    <text
+       x="300.73062"
+       y="873.30096"
+       id="text3031"
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Monospace;-inkscape-font-specification:Monospace"><tspan
+         x="300.73062"
+         y="873.30096"
+         id="tspan3033"
+         style="font-size:28px;font-weight:bold;-inkscape-font-specification:Monospace Bold">QAST::IVal</tspan></text>
+    <path
+       d="M 2.2010582,810.24578 146.37037,736.51033"
+       id="path3845"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       d="M 389.41043,810.24578 245.24112,736.51033"
+       id="path4477"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       d="M 573.19879,634.16112 429.02948,560.42567"
+       id="path4479"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+    <path
+       d="M 203.57163,634.16112 347.74094,560.42567"
+       id="path4481"
+       style="fill:none;stroke:#000000;stroke-width:3;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Mend)" />
+  </g>
+</svg>
