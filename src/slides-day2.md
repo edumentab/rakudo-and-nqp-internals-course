@@ -980,7 +980,7 @@ So what do we do?
 ## Repossession
 
 When an object that belongs to a serialization context, we're at compile time,
-and the serialization context it belongs to is not one we're curerntly in the
+and the serialization context it belongs to is not one we're currently in the
 process of compiling, a write barrier is triggered.
 
 This switches the ownership of the object to the serialization context of the
@@ -1422,7 +1422,7 @@ Finally, there are two other properties that apply to `subrule`:
   backtracked into. This is set in `token` and `rule`, and avoids keeping a
   lot of state around.
 * **`negate`** can also be set on this node. It is probably most useful in
-  combination with the `zerowidth` subtype, since that is how `<!alpha> is
+  combination with the `zerowidth` subtype, since that is how `<!alpha>` is
   compiled.
 
 Last but not least, `subrule` is also used for positional captures. Instead of
@@ -1688,7 +1688,7 @@ Various instructions load constants on to the stack:
 * **`lconst_0`, `lconst_1`** load 64-bit integer 0 and 1 onto the stack
 * **`fconst_0`, `fconst_1`, `fconst_2`** load 32-bit floating point 0.0, 1.0,
   2.0 onto the stack
-* **`dconst_0`, `dconst_1`** load 64-bit flaoting point 0.0, 1.0 onto the
+* **`dconst_0`, `dconst_1`** load 64-bit floating point 0.0, 1.0 onto the
   stack
 * **`bipush`** takes a 1-byte argument and loads it as a 32-bit integer
 * **`sipush`** takes a 2-byte argument and loads it as a 16-bit integer
@@ -1890,7 +1890,7 @@ Finally, there is **`JAST::TryCatch`**, which represents a (JVM-level)
 exception handler.
 
 It expects two `JAST::InstructionList`s, one that makes up the `try`, and
-another that makes up the `catch`. It also needs to haven an exception `type`
+another that makes up the `catch`. It also needs to have an exception `type`
 specified.
 
     $il.append(JAST::TryCatch.new(
@@ -2189,7 +2189,7 @@ QAST node: `MAST::InstructionList`. It holds three pieces of information:
 
 * A list of instructions (`$il.instructions`)
 * The register (local) holding the result (`$il.result_reg`)
-* The kind of result register it is (`$il.result_kind)
+* The kind of result register it is (`$il.result_kind`)
 
 There are constants for the four main kinds:
 
@@ -2242,7 +2242,7 @@ categorized into sub-directories:
   work to `libuv`
 * **`mast`** contains the MAST to bytecode compiler
 * **`math`** contains the libtommath binding for big integer support
-* **`platform`** is where platform-specific code goes (a different platforms
+* **`platform`** is where platform-specific code goes (as different platforms
   do things differently)
 * **`strings`** contains string operations, encoding/decoding of ASCII, UTF-8,
   etc.
