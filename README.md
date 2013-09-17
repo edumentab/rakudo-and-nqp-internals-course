@@ -14,7 +14,7 @@ This intensive 2-day workshop takes a deep dive into many areas of the Rakudo
 Perl 6 and NQP internals, mostly focusing on the backend-agnostic parts but
 with some coverage of the JVM and future MoarVM backends also. During the
 course, participants will build their own small compiler, complete with a
-simple class-based object system, to help them understand how to toolchain
+simple class-based object system, to help them understand how the toolchain
 works.
 
 ### Prerequisites
@@ -135,15 +135,6 @@ experience working with NQP also.
 * An overview of MoarVM
 * The QAST to MAST translator
 
-## Course Delivery
-
-This course material is made available by Edument AB under a Creative Commons
-license (see LICENSE file) to support the Perl 6 development community. It is,
-however, best experienced live! If you're interested in having this material
-delivered by an experienced instructor at a location of your choice, feel free
-to contact us at info@edument.se. To learn more about Edument and our other
-awesome courses, see http://edument.se/.
-
 ## Build Instructions
 
 Run the `Makefile` to build the slides for the two days. To do this, you will
@@ -161,3 +152,12 @@ On Linux you can do something like:
 
 On Windows, there is a Pandoc installer from the URL mentioned above, then
 install MiKTeX for the other commands.
+
+## Course Delivery
+
+This course material is made available by Edument AB under a Creative Commons
+license (see LICENSE file) to support the Perl 6 development community. It is,
+however, best experienced live! If you're interested in having this material
+delivered by an experienced instructor at a location of your choice, feel free
+to contact us at info@edument.se. To learn more about Edument and our other
+awesome courses, see http://edument.se/.
