@@ -498,7 +498,7 @@ Basic multiple dispatch is supported. It is a subset of the Perl 6 semantics,
 using a simpler (but compatible) version of the candidate sorting algorithm.
 
 Unlike in full Perl 6, you **must write a `proto`** sub or method; there is
-not auto-generation.
+no auto-generation.
 
     proto method as_jast($node) {*}
     
