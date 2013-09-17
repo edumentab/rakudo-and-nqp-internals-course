@@ -14,7 +14,7 @@ This intensive 2-day workshop takes a deep dive into many areas of the Rakudo
 Perl 6 and NQP internals, mostly focusing on the backend-agnostic parts but
 with some coverage of the JVM and future MoarVM backends also. During the
 course, participants will build their own small compiler, complete with a
-simple class-based object system, to help them understand how to toolchain
+simple class-based object system, to help them understand how the toolchain
 works.
 
 ### Prerequisites
