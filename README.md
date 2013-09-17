@@ -6,7 +6,7 @@ This repository contains course material for a workshop on Rakudo and NQP
 internals. In here you'll find:
 
 * The original source (build instructions below)
-* Pre-built PDFs, for your convenience, in the `output` directory
+* [Pre-built PDFs](http://edumentab.github.io/rakudo-and-nqp-internals-course/)
 
 ## Abstract
 
