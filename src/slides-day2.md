@@ -945,11 +945,11 @@ it. **Ownership is the boundary of a compilation unit's serialization.**
 
 ## Deserialization and fixups
 
-The opposite of serialization is deserialization. This involes taking the
+The opposite of serialization is deserialization. This involves taking the
 binary blob representing objects and STables and recreating the objects from
 it.
 
-In doing this, all references to object from other serialization contexts must
+In doing this, all references to objects from other serialization contexts must
 be resolved. This means that they must have been loaded first. This implies
 that a module's dependencies must be loaded before it can be deserialized.
 
