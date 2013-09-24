@@ -1330,7 +1330,7 @@ the regex `\d+` compiles into:
 
 The `backtrack` property can also be set to one of:
 
-    g       Greedy matching (\d+:, the default)
+    g       Greedy matching (\d+!, the default)
     f       Frugal (minimal) matching (\d+?)
     r       Ratchet (non-backtracking) matching (\d+:)
 
@@ -1411,7 +1411,7 @@ Will compile into:
 
     QAST::Regex.new(
         :rxtype<subrule>, :subtype<zerowidth>,
-        QAST::Node.new( QAST::SVal.new( :value('ws') ) )
+        QAST::Node.new( QAST::SVal.new( :value('alpha') ) )
     )
 
 ## subrule (4)
@@ -1809,7 +1809,7 @@ Exception handlers are stored as a table rather than in the bytecode stream.
 ## JVM instruction set: other bits
 
 There are various coercion instructions that convert between the primitive
-types. They are of the form <from>2<to>, with the same one-letter codes used
+types. They are of the form `<from>2<to>`, with the same one-letter codes used
 for arrays. The available ones are `i2l`, `i2f`, `i2d`, `l2i`, `l2f`, `l2d`,
 `f2i`, `f2l`, `f2d`, `d2i`, `d2l`, `d2f`, `i2b`, `i2c`, and `i2s`.
 
