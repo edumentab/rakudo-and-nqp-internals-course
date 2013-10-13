@@ -13,7 +13,7 @@ class RubyishClassHOW {
     }
     
     method find_method($obj, $name) {
-        %!methods{$name}
+        %!methods{$name} // nqp::null();
     }
 }
 
