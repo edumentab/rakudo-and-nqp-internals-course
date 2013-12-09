@@ -79,7 +79,7 @@ Implement a recursive factorial routine, `sub fac`. If you get it right,
 ## If time allows...
 
 1. Write a lexical class `Item` (a class declared with `my` inside of your
-   `BarTab` class. Give it attributes for `name` and `price`, and methods
+   `BarTab` class). Give it attributes for `name` and `price`, and methods
    to access them.
 2. Refactor your code to use this inner class, so you have an array of
    `Item` rather than an array of hashes.
