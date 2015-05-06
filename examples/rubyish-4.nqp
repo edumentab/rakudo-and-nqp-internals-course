@@ -13,7 +13,7 @@ class RubyishClassHOW {
     }
     
     method find_method($obj, $name) {
-        %!methods{$name}
+        %!methods{$name} // nqp::null();
     }
 }
 
@@ -87,13 +87,14 @@ grammar Rubyish::Grammar is HLL::Grammar {
     
     # Reserved words.
     token keyword {
-        | BEGIN     | class     | ensure    | nil       | self      | when
+        [ BEGIN     | class     | ensure    | nil       | self      | when
         | END       | def       | false     | not       | super     | while
         | alias     | defined   | for       | or        | then      | yield
         | and       | do        | if        | redo      | true
         | begin     | else      | in        | rescue    | undef
         | break     | elsif     | module    | retry     | unless
         | case      | end       | next      | return    | until
+        ] <!ww>
     }
     
     # Whitespace required between alphanumeric tokens
