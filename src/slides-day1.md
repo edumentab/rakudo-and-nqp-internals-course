@@ -791,7 +791,7 @@ method installed into it, by section name.
 
 The actions are passed as a named parameter to `parse`:
 
-    my $m := INIFile.parse($to_parse, :actions(INIFileActions));
+    my $m := INIFile.parse($to_parse, :actions(INIFileActions.new));
 
 The result hash can be obtained from the resulting match object using the
 `.ast`, as we already saw.
@@ -1033,7 +1033,7 @@ hash produced by the `pairlist` action method onto it.
         has @!data;
         
         method execute($query) {
-            if QueryParser.parse($query, :actions(QueryActions)) -> $parsed {
+            if QueryParser.parse($query, :actions(QueryActions.new)) -> $parsed {
                 my $evaluator := $parsed.ast;
                 if $evaluator(@!data) -> @results {
                     for @results -> %data {
