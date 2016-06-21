@@ -90,7 +90,7 @@ The Perl 6 standard grammar is written in Perl 6. It depends on...
   regex language, quoting language...)
 * Being able to **derive new languages dynamically** (new operators, custom
   quoting constructs)
-* Seemless integration between bottom-up expression parsing and top-down
+* Seamless integration between bottom-up expression parsing and top-down
   parsing for larger constructs
 * Keeping various bits of state around for **awesome error reporting**
 
