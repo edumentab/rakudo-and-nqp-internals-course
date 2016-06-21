@@ -112,7 +112,7 @@ a native division instruction in the output code).
 
 Runtime can do some compile-time:
 
-    eval slurp @demos[$n];
+    EVAL slurp @demos[$n];
 
 Compile-time can do some runtime:
 
