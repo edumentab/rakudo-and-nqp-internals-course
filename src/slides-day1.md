@@ -1409,7 +1409,7 @@ Next, we reach comp_unit. Here it is, stripped to the essentials.
 
 ## Dissecting comp_unit: scopes
 
-There are various methods on `$*W` that related to scopes.
+There are various methods on `$*W` that are related to scopes.
 
 **`$*W.push_lexpad($/)`** is used to enter a new lexical scope, nested inside
 the current one. It returns a new `QAST::Block` object representing it.
