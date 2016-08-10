@@ -2173,7 +2173,7 @@ This means adding to the grammar:
 
 And the actions:
 
-    method statement:sym<EXPR>($/) { make <EXPR>.ast; }
+    method statement:sym<EXPR>($/) { make $<EXPR>.ast; }
 
 ## Identifier parsing
 
