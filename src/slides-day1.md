@@ -2825,7 +2825,7 @@ There is an easier way to throw some of the common control exceptions:
 
     QAST::Op.new( :op('control'), :name('next') )
 
-Other valid names here are are `redo` and `last`.
+Other valid names here are `redo` and `last`.
 
 ## Handling exceptions
 
