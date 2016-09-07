@@ -218,7 +218,7 @@ bit easier. Most of Rakudo is written in NQP. This includes:
   us to be able to write the built-in classes, roles and routines in Perl 6
 
 Thus, while some of Rakudo is accessible if you know Perl 6, knowing NQP -
-both as a langauge and as a compiler toolchain - is the gateway to working
+both as a language and as a compiler toolchain - is the gateway to working
 with most of the rest of Rakudo.
 
 # The NQP language
