@@ -869,7 +869,7 @@ arrays, one each for:
   context may refer to (or refer to through indirectly, due to a closure
   cloning)
 * **STables:** the existence of this array is an implementation detail, and
-  its contents is never directly manipulated outside of VM-specific code, so
+  its contents are never directly manipulated outside of VM-specific code, so
   you can forget about it
 
 There is one `World` per compilation unit, and a `World` in turn holds a
