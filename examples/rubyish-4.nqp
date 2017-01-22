@@ -101,24 +101,22 @@ grammar Rubyish::Grammar is HLL::Grammar {
     token ws { <!ww> \h* || \h+ }
     
     # Operator precedence levels
-    INIT {
-        Rubyish::Grammar.O(':prec<y=>, :assoc<unary>', '%methodop');
-        Rubyish::Grammar.O(':prec<u=>, :assoc<left>', '%multiplicative');
-        Rubyish::Grammar.O(':prec<t=>, :assoc<left>', '%additive');
-        Rubyish::Grammar.O(':prec<j=>, :assoc<right>', '%assignment');
-    }
+    my %methodop := nqp::hash('prec', 'y=', 'assoc', 'unary');
+    my %multiplicative := nqp::hash('prec', 'u=', 'assoc', 'left');
+    my %additive := nqp::hash('prec', 't=', 'assoc', 'left');
+    my %assignment := nqp::hash('prec', 'j=', 'assoc', 'right');
     
     # Operators
-    token infix:sym<*> { <sym> <O('%multiplicative, :op<mul_n>')> }
-    token infix:sym</> { <sym> <O('%multiplicative, :op<div_n>')> }
-    token infix:sym<+> { <sym> <O('%additive, :op<add_n>')> }
-    token infix:sym<-> { <sym> <O('%additive, :op<sub_n>')> }
-    token infix:sym<=> { <sym> <O('%assignment, :op<bind>')> }
+    token infix:sym<*> { <sym> <O(|%multiplicative, :op<mul_n>)> }
+    token infix:sym</> { <sym> <O(|%multiplicative, :op<div_n>)> }
+    token infix:sym<+> { <sym> <O(|%additive, :op<add_n>)> }
+    token infix:sym<-> { <sym> <O(|%additive, :op<sub_n>)> }
+    token infix:sym<=> { <sym> <O(|%assignment, :op<bind>)> }
     
     # Method call
     token postfix:sym<.>  {
         '.' <ident> '(' :s <EXPR>* % [ ',' ] ')'
-        <O('%methodop')>
+        <O(|%methodop)>
     }
 }
 
@@ -188,6 +186,14 @@ class Rubyish::Actions is HLL::Actions {
     method defbody($/) {
         $*CUR_BLOCK.name(~$<ident>);
         $*CUR_BLOCK.push($<statementlist>.ast);
+        if $*IN_CLASS {
+            # it's a method, self will be automatically passed
+            $*CUR_BLOCK[0].unshift(QAST::Var.new(
+                :name('self'), :scope('lexical'), :decl('param')
+            ));
+            $*CUR_BLOCK.symbol('self', :declared(1));
+        }
+
         make $*CUR_BLOCK;
     }
     method param($/) {
@@ -253,6 +259,21 @@ class Rubyish::Actions is HLL::Actions {
 }
 
 class Rubyish::Compiler is HLL::Compiler {
+    method eval($code, *@_args, *%adverbs) {
+        my $output := self.compile($code, :compunit_ok(1), |%adverbs);
+
+        if %adverbs<target> eq '' {
+            my $outer_ctx := %adverbs<outer_ctx>;
+            $output := self.backend.compunit_mainline($output);
+            if nqp::defined($outer_ctx) {
+                nqp::forceouterctx($output, $outer_ctx);
+            }
+
+            $output := $output();
+        }
+
+        $output;
+    }
 }
 
 sub MAIN(*@ARGS) {

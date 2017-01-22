@@ -26,16 +26,14 @@ grammar Rubyish::Grammar is HLL::Grammar {
     token ws { <!ww> \h* || \h+ }
     
     # Operator precedence levels
-    INIT {
-        Rubyish::Grammar.O(':prec<u=>, :assoc<left>',  '%multiplicative');
-        Rubyish::Grammar.O(':prec<t=>, :assoc<left>',  '%additive');
-    }
+    my %multiplicative := nqp::hash('prec', 'u=', 'assoc', 'left');
+    my %additive := nqp::hash('prec', 't=', 'assoc', 'left');
     
     # Operators
-    token infix:sym<*> { <sym>  <O('%multiplicative, :op<mul_n>')> }
-    token infix:sym</> { <sym>  <O('%multiplicative, :op<div_n>')> }
-    token infix:sym<+> { <sym>  <O('%additive, :op<add_n>')> }
-    token infix:sym<-> { <sym>  <O('%additive, :op<sub_n>')> }
+    token infix:sym<*> { <sym> <O(|%multiplicative, :op<mul_n>)> }
+    token infix:sym</> { <sym> <O(|%multiplicative, :op<div_n>)> }
+    token infix:sym<+> { <sym> <O(|%additive, :op<add_n>)> }
+    token infix:sym<-> { <sym> <O(|%additive, :op<sub_n>)> }
 }
 
 class Rubyish::Actions is HLL::Actions {
