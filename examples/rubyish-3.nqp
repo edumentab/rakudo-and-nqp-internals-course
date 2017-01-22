@@ -68,18 +68,16 @@ grammar Rubyish::Grammar is HLL::Grammar {
     token ws { <!ww> \h* || \h+ }
     
     # Operator precedence levels
-    INIT {
-        Rubyish::Grammar.O(':prec<u=>, :assoc<left>',  '%multiplicative');
-        Rubyish::Grammar.O(':prec<t=>, :assoc<left>',  '%additive');
-        Rubyish::Grammar.O(':prec<j=>, :assoc<right>',  '%assignment');
-    }
+    my %multiplicative := nqp::hash('prec', 'u=', 'assoc', 'left');
+    my %additive := nqp::hash('prec', 't=', 'assoc', 'left');
+    my %assignment := nqp::hash('prec', 'j=', 'assoc', 'right');
     
     # Operators
-    token infix:sym<*> { <sym> <O('%multiplicative, :op<mul_n>')> }
-    token infix:sym</> { <sym> <O('%multiplicative, :op<div_n>')> }
-    token infix:sym<+> { <sym> <O('%additive, :op<add_n>')> }
-    token infix:sym<-> { <sym> <O('%additive, :op<sub_n>')> }
-    token infix:sym<=> { <sym> <O('%assignment, :op<bind>')> }
+    token infix:sym<*> { <sym> <O(|%multiplicative, :op<mul_n>)> }
+    token infix:sym</> { <sym> <O(|%multiplicative, :op<div_n>)> }
+    token infix:sym<+> { <sym> <O(|%additive, :op<add_n>)> }
+    token infix:sym<-> { <sym> <O(|%additive, :op<sub_n>)> }
+    token infix:sym<=> { <sym> <O(|%assignment, :op<bind>)> }
 }
 
 class Rubyish::Actions is HLL::Actions {
@@ -161,6 +159,21 @@ class Rubyish::Actions is HLL::Actions {
 }
 
 class Rubyish::Compiler is HLL::Compiler {
+    method eval($code, *@_args, *%adverbs) {
+        my $output := self.compile($code, :compunit_ok(1), |%adverbs);
+
+        if %adverbs<target> eq '' {
+            my $outer_ctx := %adverbs<outer_ctx>;
+            $output := self.backend.compunit_mainline($output);
+            if nqp::defined($outer_ctx) {
+                nqp::forceouterctx($output, $outer_ctx);
+            }
+
+            $output := $output();
+        }
+
+        $output;
+    }
 }
 
 sub MAIN(*@ARGS) {

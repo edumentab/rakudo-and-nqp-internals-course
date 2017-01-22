@@ -2044,11 +2044,9 @@ Let's add addition, subtraction, multiplication and division. For these, we
 need to set up the operator precedence parser, configuring two precedence
 levels.
 
-    INIT {
-        # Steal precedence level names from Perl 6 grammar
-        Rubyish::Grammar.O(':prec<u=>, :assoc<left>', '%multiplicative');
-        Rubyish::Grammar.O(':prec<t=>, :assoc<left>', '%additive');
-    }
+    # Operator precedence levels
+    my %multiplicative := nqp::hash('prec', 'u=', 'assoc', 'left');
+    my %additive := nqp::hash('prec', 't=', 'assoc', 'left')
 
 Note that the `O` method we call here is inherited from `HLL::Grammar`. The
 first argument specifies precedence level and associativity. The second then
@@ -2061,10 +2059,13 @@ With the precedence levels in place, we can add some operators into the
 grammar. This is done by adding them to the `infix` protoregex, which we
 inherit from `HLL::Grammar`.
 
-    token infix:sym<*> { <sym> <O('%multiplicative, :op<mul_n>')> }
-    token infix:sym</> { <sym> <O('%multiplicative, :op<div_n>')> }
-    token infix:sym<+> { <sym> <O('%additive, :op<add_n>')> }
-    token infix:sym<-> { <sym> <O('%additive, :op<sub_n>')> }
+    # Operators
+    token infix:sym<*> { <sym> <O(|%multiplicative, :op<mul_n>)> }
+    token infix:sym</> { <sym> <O(|%multiplicative, :op<div_n>)> }
+    token infix:sym<+> { <sym> <O(|%additive, :op<add_n>)> }
+    token infix:sym<-> { <sym> <O(|%additive, :op<sub_n>)> }
+    token bind-op {'='<![>=]>}
+    token infix:sym<=> { <.bind-op> <O(|%assignment, :op<bind>)> }
 
 The **`:op<...>`** syntax instructs the `EXPR` action method we inherit from
 `HLL::Actions` to construct a `QAST::Op` node of that op for us!
@@ -2155,12 +2156,12 @@ assignment.
 
 First, let's add a precedence level for assignment:
 
-    Rubyish::Grammar.O(':prec<j=>, :assoc<right>',  '%assignment');
+    my %assignment := nqp::hash('prec', 'j=', 'assoc', 'right');
 
 And parse the assignment operator, using the `bind` NQP operation which will
 bind the expression on the right to a variable on the left:
 
-    token infix:sym<=> { <sym> <O('%assignment, :op<bind>')> }
+    token infix:sym<=> { <sym> <O(|%assignment, :op<bind>)> }
 
 ## Expressions as statements
 
@@ -2323,6 +2324,13 @@ the first token's action method can see the `$*CUR_BLOCK` to install into.
         :my $*CUR_BLOCK := QAST::Block.new(QAST::Stmts.new());
         <ident> \n
         <statementlist>
+        if $*IN_CLASS {
+            # it's a method, self will be automatically passed
+            $*CUR_BLOCK[0].unshift(QAST::Var.new(
+                :name('self'), :scope('lexical'), :decl('param')
+            ));
+            $*CUR_BLOCK.symbol('self', :declared(1));
+        }
         'end'
     }
 
