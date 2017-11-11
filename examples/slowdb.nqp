@@ -3,11 +3,11 @@ grammar QueryParser {
     
     proto token query {*}
     token query:sym<insert> {
-        'INSERT' :s <pairlist>
+        'INSERT' \s <pairlist>
     }
     token query:sym<select> {
-        'SELECT' :s <keylist>
-        [ 'WHERE' <pairlist> ]?
+        'SELECT' \s <keylist>
+        [ 'WHERE' \s <pairlist> ]?
     }
     
     rule pairlist { <pair>+ % [ ',' ] }
