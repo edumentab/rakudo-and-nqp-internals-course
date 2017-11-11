@@ -3,11 +3,11 @@ grammar QueryParser {
     
     proto token query {*}
     token query:sym<insert> {
-        'INSERT' :s <pairlist>
+        'INSERT' \s <pairlist>
     }
     token query:sym<select> {
-        'SELECT' :s <keylist>
-        [ 'WHERE' <pairlist> ]?
+        'SELECT' \s <keylist>
+        [ 'WHERE' \s <pairlist> ]?
     }
     
     rule pairlist { <pair>+ % [ ',' ] }
@@ -103,6 +103,6 @@ class SlowDB {
 # QueryParser.HOW.trace-on(QueryParser);
 
 my $db := SlowDB.new();
-while (my $query := nqp::readlinefh(nqp::getstdin())) ne 'quit' {
+while (my $query := stdin().get) ne 'quit' {
     $db.execute($query);
 }
