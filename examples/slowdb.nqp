@@ -103,6 +103,6 @@ class SlowDB {
 # QueryParser.HOW.trace-on(QueryParser);
 
 my $db := SlowDB.new();
-while (my $query := nqp::readlinefh(nqp::getstdin())) ne 'quit' {
+while (my $query := stdin().get) ne 'quit' {
     $db.execute($query);
 }
