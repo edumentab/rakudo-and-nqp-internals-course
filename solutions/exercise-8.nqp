@@ -123,7 +123,7 @@ grammar PHPish::Grammar is HLL::Grammar {
     token term:sym<variable> {
         :my $*MAYBE_DECL := 0;
         <varname>
-        [ <?before \s* '=' [\w | \s+] { $*MAYBE_DECL := 1 }> || <?> ]
+        [ <?before \s* '=' \s* [ <value> || <new> ] { $*MAYBE_DECL := 1 }> || <?> ]
     }
     
     token term:sym<new> {
