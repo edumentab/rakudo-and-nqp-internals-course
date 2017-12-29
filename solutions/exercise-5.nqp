@@ -57,19 +57,17 @@ grammar PHPish::Grammar is HLL::Grammar {
     token semi    { <.ws> [ ';' || $ ] }
 
     # Operator precedence levels
-    INIT {
-        PHPish::Grammar.O(':prec<u=>, :assoc<left>', '%multiplicative');
-        PHPish::Grammar.O(':prec<t=>, :assoc<left>', '%additive');
-        PHPish::Grammar.O(':prec<j=>, :assoc<right>',  '%assignment');
-    }
+    my %multiplicative := nqp::hash('prec', 'u=', 'assoc', 'left');
+    my %additive := nqp::hash('prec', 't=', 'assoc', 'left');
+    my %assignment := nqp::hash('prec', 'i=', 'assoc', 'right');
     
     # Operators
-    token infix:sym<*> { <sym>  <O('%multiplicative, :op<mul_n>')> }
-    token infix:sym</> { <sym>  <O('%multiplicative, :op<div_n>')> }
-    token infix:sym<+> { <sym>  <O('%additive, :op<add_n>')> }
-    token infix:sym<-> { <sym>  <O('%additive, :op<sub_n>')> }
-    token infix:sym<.> { <sym>  <O('%additive, :op<concat>')> }
-    token infix:sym<=> { <sym> <O('%assignment, :op<bind>')> }
+    token infix:sym<*> { <sym>  <O(|%multiplicative, :op<mul_n>)> }
+    token infix:sym</> { <sym>  <O(|%multiplicative, :op<div_n>)> }
+    token infix:sym<+> { <sym>  <O(|%additive, :op<add_n>)> }
+    token infix:sym<-> { <sym>  <O(|%additive, :op<sub_n>)> }
+    token infix:sym<.> { <sym>  <O(|%additive, :op<concat>)> }
+    token infix:sym<=> { <sym> <O(|%assignment, :op<bind>)> }
 }
 
 class PHPish::Actions is HLL::Actions {
