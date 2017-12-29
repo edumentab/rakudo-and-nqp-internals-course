@@ -241,6 +241,11 @@ class PHPish::Actions is HLL::Actions {
 }
 
 class PHPish::Compiler is HLL::Compiler {
+    method eval($code, *@args, *%adverbs) {
+        my $output := self.compile($code, :compunit_ok(1), |%adverbs);
+        $output := self.backend.compunit_mainline($output);
+        $output();
+    }
 }
 
 sub MAIN(*@ARGS) {
