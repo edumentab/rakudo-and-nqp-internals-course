@@ -123,7 +123,7 @@ grammar PHPish::Grammar is HLL::Grammar {
     token term:sym<variable> {
         :my $*MAYBE_DECL := 0;
         <varname>
-        [ <?before \s* '=' [\w | \s+] { $*MAYBE_DECL := 1 }> || <?> ]
+        [ <?before \s* '=' \s* [ <value> || <new> ] { $*MAYBE_DECL := 1 }> || <?> ]
     }
     
     token term:sym<new> {
@@ -145,24 +145,22 @@ grammar PHPish::Grammar is HLL::Grammar {
     token semi    { <.ws> [ ';' || $ ] }
 
     # Operator precedence levels
-    INIT {
-        PHPish::Grammar.O(':prec<y=>, :assoc<unary>', '%methodop');
-        PHPish::Grammar.O(':prec<u=>, :assoc<left>', '%multiplicative');
-        PHPish::Grammar.O(':prec<t=>, :assoc<left>', '%additive');
-        PHPish::Grammar.O(':prec<j=>, :assoc<right>',  '%assignment');
-    }
+    my %methodop := nqp::hash('prec', 'y=', 'assoc', 'unary');
+    my %multiplicative := nqp::hash('prec', 'u=', 'assoc', 'left');
+    my %additive := nqp::hash('prec', 't=', 'assoc', 'left');
+    my %assignment := nqp::hash('prec', 'i=', 'assoc', 'right');
     
     # Operators
-    token infix:sym<*> { <sym>  <O('%multiplicative, :op<mul_n>')> }
-    token infix:sym</> { <sym>  <O('%multiplicative, :op<div_n>')> }
-    token infix:sym<+> { <sym>  <O('%additive, :op<add_n>')> }
-    token infix:sym<-> { <sym>  <O('%additive, :op<sub_n>')> }
-    token infix:sym<.> { <sym>  <O('%additive, :op<concat>')> }
-    token infix:sym<=> { <sym> <O('%assignment, :op<bind>')> }
+    token infix:sym<*> { <sym>  <O(|%multiplicative, :op<mul_n>)> }
+    token infix:sym</> { <sym>  <O(|%multiplicative, :op<div_n>)> }
+    token infix:sym<+> { <sym>  <O(|%additive, :op<add_n>)> }
+    token infix:sym<-> { <sym>  <O(|%additive, :op<sub_n>)> }
+    token infix:sym<.> { <sym>  <O(|%additive, :op<concat>)> }
+    token infix:sym<=> { <sym>  <O(|%assignment, :op<bind>)> }
     
     token postfix:sym<methcall>  {
         '->' <ident> '(' :s <EXPR>* % [ ',' ] ')'
-        <O('%methodop')>
+        <O(|%methodop)>
     }
 }
 
@@ -314,6 +312,11 @@ class PHPish::Actions is HLL::Actions {
 }
 
 class PHPish::Compiler is HLL::Compiler {
+    method eval($code, *@args, *%adverbs) {
+        my $output := self.compile($code, :compunit_ok(1), |%adverbs);
+        $output := self.backend.compunit_mainline($output);
+        $output();
+    }
 }
 
 sub MAIN(*@ARGS) {
