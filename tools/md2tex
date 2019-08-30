@@ -39,6 +39,15 @@ my $HEADER = <<'EOT';
 \titlegraphic{
   \includegraphics[scale=0.1]{eps/edument-logo.eps}
 }
+
+
+%%%%% THIS FIXES TIGHTLIST ERROR %%%%%
+% error occurs with some lists due to an error in some beamer files after 2015
+% add the following to fix it if needed
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+%%%%% END TIGHTLIST ERROR FIX %%%%%
+
 \begin{document}
 
 %----------- titlepage ----------------------------------------------%
