@@ -246,7 +246,7 @@ class Rubyish::Actions is HLL::Actions {
         make QAST::IVal.new( :value(+$/.Str) )
     }
     method value:sym<float>($/) {
-        make QAST::NVal.new( :value(+$/.Str) )
+        make QAST::NVal.new( :value(nqp::numify($/.Str)) )
     }
     
     method postfix:sym<.>($/) {
